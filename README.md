@@ -13,35 +13,51 @@ This is a simple web application that allows users to search for books using the
 
 ## Getting Started
 
-1. *Clone the repository:*
+1. **Clone the repository:**
 
-    bash
+    ```bash
     git clone https://github.com/MohamedFahman/vpt-2023-aug-SyntaxSavants
     cd vpt-2023-aug-Syntax-Savants
-    
+    ```
 
-2. *Open the `index.html` file:*
+2. **Install Flask:**
+
+    If you intend to use the Flask framework to enhance the project further, you'll need to install Flask. Run the following command:
+
+    ```bash
+    pip install Flask
+    ```
+
+3. **Run the Flask App:**
+
+    To run the Flask app, execute the following command:
+
+    ```bash
+    flask run
+    ```
+
+4. **Open the `index.html` file:**
 
     Open the `index.html` file in your preferred web browser to access the book search interface.
 
 ## Usage
 
-1. *Search for Books:*
+1. **Search for Books:**
 
     - Enter keywords or the title of a book into the search bar on the homepage.
     - Click the "Search" button to retrieve relevant books from the Open Library API.
     - The search results will be displayed below with pagination controls.
 
-2. *Pagination:*
+2. **Pagination:**
 
     - If there are multiple search results, use the "Previous" and "Next" buttons to navigate through the results.
 
-3. *View Book Details:*
+3. **View Book Details:**
 
     - Click on a book title in the search results to view detailed information about the selected book.
     - The book details page will display the title, author(s), and first published year of the book.
 
-4. *Back to Search:*
+4. **Back to Search:**
 
     - On the book details page, you can click the "Back to Search" link to return to the search results.
 
@@ -49,3 +65,5 @@ This is a simple web application that allows users to search for books using the
 
 - [Bootstrap](https://getbootstrap.com): CSS framework for styling the web pages.
 - [Open Library API](https://openlibrary.org/developers/api): Provides access to book data for searching and displaying details.
+- [Flask](https://flask.palletsprojects.com): Web framework used to enhance the project functionality.
+
