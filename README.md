@@ -17,7 +17,7 @@ This is a simple web application that allows users to search for books using the
 
     ```bash
     git clone https://github.com/MohamedFahman/vpt-2023-aug-SyntaxSavants
-    cd vpt-2023-aug-Syntax-Savants
+    cd vpt-2023-aug-SyntaxSavants
     ```
 
 2. **Install Flask:**
